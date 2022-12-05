@@ -39,8 +39,8 @@ body {
     font-size: 13px;
 }
 
-.padding-fifty {
-    padding: 0px 50px;
+.padding-ten-fifty {
+    padding: 10px 50px;
 }
 
 .nav-link:hover {
@@ -54,6 +54,11 @@ body {
     border-radius: 0.375rem;
 }
 
+.resume-btn a{
+    text-decoration: none;
+    color: #64ffda;
+}
+
 .nav-brand {
     border: 1px solid;
     border-radius: 16px;
@@ -62,7 +67,7 @@ body {
 
 main {
     height: 100vh;
-    padding: 0 50px;
+    padding: 0 150px;
     width: 100%;
 }
 
@@ -70,6 +75,7 @@ main {
     display: flex;
     flex-direction: column;
     height: inherit;
+    padding: 0 50px;
     justify-content: center;
 }
 
@@ -103,4 +109,56 @@ main {
 .section-1 p a{
     color: #64ffda !important; 
     text-decoration: none;
+}
+
+.ori-left {
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: 40px;
+    right: auto;
+    z-index: 10;
+    color: #ccd6f6;
+}
+
+.ori-right {
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: auto;
+    right: 40px;
+    z-index: 10;
+    color: #ccd6f6;
+}
+
+.ori-left ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.ori-left li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.ori-left li a {
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    color: inherit;
+    position: relative;
+}
+
+.ori-left ul::after {
+content: "";
+display: block;
+width: 1px;
+height: 90px;
+margin: 0px auto;
+background-color: #ccd6f6;
 }
