@@ -54,7 +54,7 @@ body {
     border-radius: 0.375rem;
 }
 
-.resume-btn a{
+.resume-btn a {
     text-decoration: none;
     color: #64ffda;
 }
@@ -106,8 +106,8 @@ main {
     font-size: 18px;
 }
 
-.section-1 p a{
-    color: #64ffda !important; 
+.section-1 p a {
+    color: #64ffda !important;
     text-decoration: none;
 }
 
@@ -155,10 +155,10 @@ main {
 }
 
 .ori-left ul::after {
-content: "";
-display: block;
-width: 1px;
-height: 90px;
-margin: 0px auto;
-background-color: #ccd6f6;
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0px auto;
+    background-color: #ccd6f6;
 }
