@@ -26,8 +26,12 @@
     <nav class="navbar navbar-expand-lg fixed-top bg-theme">
       <div class="container-fluid padding-ten-fifty">
         <a class="navbar-brand nav-brand cl-green" href="./index.html">&lt;S/&gt;</a>
-        <div>
-          <ul class="nav justify-content-end ft-xxs">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <img src="./assets/navbar-toggle.svg" class="navbar-icon" width="25px" />
+        </button>
+        <div class="collapse navbar-collapse flex-grow-zero" id="navbarNav">
+          <ul class="nav navbar-nav justify-content-end ft-xxs">
             <li class="nav-item">
               <a class="nav-link nav-link-cl" href="#">About</a>
             </li>
@@ -41,7 +45,15 @@
               <a class="nav-link nav-link-cl" href="#">Contact</a>
             </li>
             <button class="btn resume-btn btn-outline-theme cl-green ft-xxs"><a href="./assets/Simranjot_Kaur.pdf"
-                download>Resume</a></button>
+              download>Resume</a></button>
+            <div id="ul-social">
+                  <a href="https://github.com/simranjotkr" aria-label="GitHub"><img src="./assets/github.svg"></a>
+                  <a href="https://simranjotkr.medium.com/" aria-label="Medium"><img src="./assets/medium.svg"></a>
+                  <a href="https://linkedin.com/in/simranjotkr" aria-label="LinkedIn"><img src="./assets/linkedin.svg"></a>
+                  <a href="https://instagram.com/simranjotkr" aria-label="Instagram"><img src="./assets/instagram.svg"></a>
+                  <a href="https://www.behance.net/simranjotkr" aria-label="Behance"><img src="./assets/behance.svg"></a>
+                  <a href="https://twitter.com/simranjotkr" aria-label="Twitter"><img src="./assets/twitter.svg"></a>
+            </div>    
           </ul>
         </div>
       </div>
@@ -49,36 +61,12 @@
   </header>
   <div orientation="left" class="ori-left">
     <ul>
-      <li>
-        <a href="https://github.com/simranjotkr" aria-label="GitHub">
-          <img src="./assets/github.svg">
-        </a>
-      </li>
-      <li>
-        <a href="https://simranjotkr.medium.com/" aria-label="Medium">
-          <img src="./assets/medium.svg">
-        </a>
-      </li>
-      <li>
-        <a href="https://linkedin.com/in/simranjotkr" aria-label="LinkedIn">
-          <img src="./assets/linkedin.svg">
-        </a>
-      </li>
-      <li>
-        <a href="https://instagram.com/simranjotkr" aria-label="Instagram">
-          <img src="./assets/instagram.svg">
-        </a>
-      </li>
-      <li>
-        <a href="https://www.behance.net/simranjotkr" aria-label="Behance">
-          <img src="./assets/behance.svg">
-        </a>
-      </li>
-      <li>
-        <a href="https://twitter.com/simranjotkr" aria-label="Twitter">
-          <img src="./assets/twitter.svg">
-        </a>
-      </li>
+      <li><a href="https://github.com/simranjotkr" aria-label="GitHub"><img src="./assets/github.svg"></a></li>
+      <li><a href="https://simranjotkr.medium.com/" aria-label="Medium"><img src="./assets/medium.svg"></a></li>
+      <li><a href="https://linkedin.com/in/simranjotkr" aria-label="LinkedIn"><img src="./assets/linkedin.svg"></a></li>
+      <li><a href="https://instagram.com/simranjotkr" aria-label="Instagram"><img src="./assets/instagram.svg"></a></li>
+      <li><a href="https://www.behance.net/simranjotkr" aria-label="Behance"><img src="./assets/behance.svg"></a></li>
+      <li><a href="https://twitter.com/simranjotkr" aria-label="Twitter"><img src="./assets/twitter.svg"></a></li>
     </ul>
   </div>
   <div orientation="right" class="ori-right"></div>
@@ -104,9 +92,6 @@
         </div>
       </section>
     </main>
-    <footer>
-
-    </footer>
   </div>
   <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"

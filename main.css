@@ -35,6 +35,10 @@ body {
     color: #ccd6f6;
 }
 
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
 .ft-xxs {
     font-size: 13px;
 }
@@ -162,3 +166,34 @@ main {
     margin: 0px auto;
     background-color: #ccd6f6;
 }
+
+@media (max-width: 769px) {
+    main {
+        padding: 0;
+    }
+
+    .ori-left {
+        display: none;
+    }
+
+    .nav {
+        align-items: flex-start;
+    }
+
+    #ul-social {
+        display: flex !important;
+    }
+}
+
+.flex-grow-zero {
+    flex-grow: 0;
+}
+
+#ul-social {
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 20px;
+    display: none;
+}
+
